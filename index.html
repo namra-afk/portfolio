@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arman L. Putong — Software Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="bg-orbs" aria-hidden="true">
+  <span class="bg-orb orb-1"></span>
+  <span class="bg-orb orb-2"></span>
+  <span class="bg-orb orb-3"></span>
+</div>
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">ALP</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <!-- Floating decorative shapes -->
+  <div class="hero-shape hero-shape-1"></div>
+  <div class="hero-shape hero-shape-2"></div>
+
+  <div class="hero-inner">
+    <div class="hero-profile">
+      <img
+        src="profile.jpg"
+        alt="Arman L. Putong profile photo"
+        class="hero-profile-img"
+      />
+      <div class="hero-profile-ring" aria-hidden="true"></div>
+    </div>
+    <div class="hero-tag">Aspiring Software Developer</div>
+    <h1>Arman L.<br><em>Putong</em></h1>
+    <p class="hero-desc">
+      I build functional, user-friendly, and reliable desktop and web-based systems that solve real problems — using C#, MySQL, and PHP.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#projects">View my projects</a>
+      <a class="btn btn-outline" href="#contact">Get in touch</a>
+    </div>
+    <div class="hero-meta">
+      <span class="hero-chip">Open for freelance</span>
+      <span class="hero-chip">Based in Philippines</span>
+      <span class="hero-chip">Fast learner</span>
+    </div>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="reveal">
+    <div class="section-label">What I work with</div>
+    <h2>Skills &amp; tools</h2>
+  </div>
+  <div class="skills-grid reveal-stagger">
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9l3 3-3 3M13 15h3"/></svg>
+      </div>
+      <div class="skill-name">C# WinForms</div>
+      <div class="skill-sub">Desktop Applications</div>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 1.66 4.03 3 9 3s9-1.34 9-3V5"/><path d="M3 12c0 1.66 4.03 3 9 3s9-1.34 9-3"/></svg>
+      </div>
+      <div class="skill-name">MySQL</div>
+      <div class="skill-sub">Database Management</div>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+      </div>
+      <div class="skill-name">PHP</div>
+      <div class="skill-sub">Web Backend</div>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+      </div>
+      <div class="skill-name">HTML &amp; CSS</div>
+      <div class="skill-sub">Frontend Basics</div>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+      </div>
+      <div class="skill-name">System Design</div>
+      <div class="skill-sub">Architecture &amp; Logic</div>
+    </div>
+
+    <div class="skill-cell">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24"><path d="M14.5 10c-.83 0-1.5-.67-1.5-1.5v-5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5z"/><path d="M20.5 10H19V8.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/><path d="M9.5 14c.83 0 1.5.67 1.5 1.5v5c0 .83-.67 1.5-1.5 1.5S8 21.33 8 20.5v-5c0-.83.67-1.5 1.5-1.5z"/><path d="M3.5 14H5v1.5c0 .83-.67 1.5-1.5 1.5S2 16.33 2 15.5 2.67 14 3.5 14z"/><path d="M14 14.5c0-.83.67-1.5 1.5-1.5h5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5h-5c-.83 0-1.5-.67-1.5-1.5z"/><path d="M15.5 19H14v1.5c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5z"/><path d="M10 9.5C10 8.67 9.33 8 8.5 8h-5C2.67 8 2 8.67 2 9.5S2.67 11 3.5 11h5c.83 0 1.5-.67 1.5-1.5z"/><path d="M8.5 5H10V3.5C10 2.67 9.33 2 8.5 2S7 2.67 7 3.5 7.67 5 8.5 5z"/></svg>
+      </div>
+      <div class="skill-name">UI Development</div>
+      <div class="skill-sub">User-Friendly Interfaces</div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <div class="section-label">What I've built</div>
+    <h2>Projects</h2>
+  </div>
+  <div class="projects-list reveal-stagger">
+
+    <div class="project-card">
+      <div>
+        <div class="project-num">01</div>
+        <div class="project-title">Attendance Monitoring System</div>
+        <p class="project-desc">
+          A desktop system with QR Code scanning for tracking attendance. Features login authentication, employee/student data management, and reporting tools for generating attendance summaries.
+        </p>
+        <div class="project-tags">
+          <span class="tag">C# WinForms</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">QR Code</span>
+          <span class="tag">Reporting</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </div>
+
+    <div class="project-card">
+      <div>
+        <div class="project-num">02</div>
+        <div class="project-title">Web-Based System</div>
+        <p class="project-desc">
+          A PHP-powered web application with HTML/CSS frontend, connected to a MySQL backend. Designed for reliable data management with a clean, user-focused interface.
+        </p>
+        <div class="project-tags">
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="project-arrow">→</div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="reveal">
+    <div class="section-label">Who I am</div>
+    <h2>About me</h2>
+  </div>
+  <div class="about-grid reveal">
+    <div class="about-text">
+      <p>
+        I'm an aspiring Software Developer based in the Philippines, focused on building applications that are functional, reliable, and genuinely useful. My work spans desktop development with C# WinForms and web development with PHP.
+      </p>
+      <p>
+        Through hands-on projects, I've built skills in database design, system logic, and UI development — always with an eye on the end user. I'm eager to keep improving and committed to delivering quality work for clients.
+      </p>
+    </div>
+    <div class="stats-col">
+      <div class="stat-row">
+        <span class="stat-label">Primary stack</span>
+        <span class="stat-val">C# / MySQL</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Web stack</span>
+        <span class="stat-val">PHP / HTML / CSS</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Focus</span>
+        <span class="stat-val">Desktop &amp; Web Systems</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Location</span>
+        <span class="stat-val">Philippines</span>
+      </div>
+      <div class="stat-row">
+        <span class="stat-label">Availability</span>
+        <span class="stat-val">Open to work</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-box reveal">
+    <div>
+      <h2>Let's work together</h2>
+      <p class="contact-sub">Have a project in mind? I'd love to hear about it.</p>
+    </div>
+    <div class="contact-links">
+      <a class="contact-link" href="mailto:armanputong@gmail.com">
+        <span class="contact-link-dot"></span>
+        armanputong@gmail.com
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Arman L. Putong &mdash; Built with care
+</footer>
+
+<button class="to-top" type="button" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
